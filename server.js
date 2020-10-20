@@ -7,7 +7,7 @@ const surnameRouter = require("./routes/surnameRoutes");
 const traitRouter = require("./routes/traitRoutes");
 const flawRouter = require("./routes/flawRoutes");
 require("dotenv").config();
-const pagit pssword = process.env.NODE_ENV_MONGODB;
+const password = process.env.NODE_ENV_MONGODB;
 const PORT = process.env.PORT || 5000;
 
 const app = express();
@@ -23,7 +23,7 @@ mongoose.connect(
   console.log("Connected to Database")
 );
 
-app.get("*", (req, res) => {
+app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 
