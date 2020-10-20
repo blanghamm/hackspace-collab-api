@@ -12,8 +12,7 @@ app.get("/firstname", async (req, res) => {
 });
 
 app.post("/firstname", async (req, res) => {
-  const firstname = new firstnameModal(req.body);
-
+  const firstname = new firstnameModal(req.body.firstname);
   try {
     await firstname.save();
     res.send(firstname);
