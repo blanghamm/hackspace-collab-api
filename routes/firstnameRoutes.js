@@ -16,10 +16,18 @@ app.post("/firstname", async (req, res) => {
   try {
     await firstname.save();
     res.send(firstname);
-    console.log(firstname);
   } catch (err) {
     res.status(500).send(err);
-    console.log("What was recieved", firstname);
+  }
+});
+
+app.put("/firstname", async (req, res) => {
+  const firstname = new firstnameModal(req.body);
+  try {
+    await firstname.save();
+    res.send(firstname);
+  } catch (err) {
+    res.status(500).send(err);
   }
 });
 
