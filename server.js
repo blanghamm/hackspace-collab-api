@@ -6,12 +6,13 @@ const firstnameRouter = require("./routes/firstnameRoutes");
 const surnameRouter = require("./routes/surnameRoutes");
 const traitRouter = require("./routes/traitRoutes");
 const flawRouter = require("./routes/flawRoutes");
+const bodyParser = require("body-parser");
 require("dotenv").config();
 const password = process.env.NODE_ENV_MONGODB;
 const PORT = process.env.PORT || 5000;
 
 const app = express();
-app.use(express.json());
+app.use(bodyParser.json());
 app.use(cors());
 
 mongoose.connect(
