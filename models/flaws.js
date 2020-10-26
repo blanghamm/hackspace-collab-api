@@ -7,5 +7,5 @@ const flawsSchema = new mongoose.Schema({
   },
 });
 
-const Flaw = mongoose.model("Flaw", flawsSchema);
+const Flaw = mongoose.model("Flaws", flawsSchema);
 module.exports = Flaw;

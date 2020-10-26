@@ -8,5 +8,5 @@ const surnameSchema = new mongoose.Schema({
   },
 });
 
-const Surname = mongoose.model("Surname", surnameSchema);
+const Surname = mongoose.model("Surnames", surnameSchema);
 module.exports = Surname;

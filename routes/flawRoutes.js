@@ -21,4 +21,14 @@ app.post("/flaws", async (req, res) => {
   }
 });
 
+app.put("/flaws", async (req, res) => {
+  const flaw = new flawModal(req.body);
+  try {
+    await flaw.save();
+    res.send(flaw);
+  } catch (err) {
+    res.status(500).send(err);
+  }
+});
+
 module.exports = app;

@@ -2,7 +2,7 @@ const express = require("express");
 const firstnameModal = require("../models/firstname");
 const app = express();
 
-app.get("/firstname", async (req, res) => {
+app.get("/firstnames", async (req, res) => {
   const firstname = await firstnameModal.find({});
   try {
     res.send(firstname);
@@ -11,7 +11,7 @@ app.get("/firstname", async (req, res) => {
   }
 });
 
-app.post("/firstname", async (req, res) => {
+app.post("/firstnames", async (req, res) => {
   const firstname = new firstnameModal(req.body);
   try {
     await firstname.save();
@@ -21,7 +21,7 @@ app.post("/firstname", async (req, res) => {
   }
 });
 
-app.put("/firstname", async (req, res) => {
+app.put("/firstnames", async (req, res) => {
   const firstname = new firstnameModal(req.body);
   try {
     await firstname.save();

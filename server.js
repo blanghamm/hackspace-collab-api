@@ -1,7 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
-const ageRouter = require("./routes/ageRoutes");
 const firstnameRouter = require("./routes/firstnameRoutes");
 const surnameRouter = require("./routes/surnameRoutes");
 const traitRouter = require("./routes/traitRoutes");
@@ -28,14 +27,7 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 
-app.use(
-  "/",
-  ageRouter,
-  firstnameRouter,
-  surnameRouter,
-  traitRouter,
-  flawRouter
-);
+app.use("/", firstnameRouter, surnameRouter, traitRouter, flawRouter);
 
 app.listen(PORT, () => {
   console.log(`listening on ${PORT}`);
