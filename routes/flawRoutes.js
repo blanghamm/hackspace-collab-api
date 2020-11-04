@@ -31,4 +31,14 @@ app.put("/flaws", async (req, res) => {
   }
 });
 
+app.delete("./flaws/:id", async (req, res) => {
+  const flaw = await flawModal.findByIdAndDelete(req.params.id);
+  try {
+    if (!flaw) res.status(404).send("No item found");
+    res.status(200).send();
+  } catch (err) {
+    res.status(500).send(err);
+  }
+});
+
 module.exports = app;

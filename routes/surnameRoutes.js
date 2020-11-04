@@ -32,4 +32,14 @@ app.put("/surnames", async (req, res) => {
   }
 });
 
+app.delete("/surnames/:id", async (req, res) => {
+  const surname = await surnameModal.findByIdAndDelete(req.params.id);
+  try {
+    if (!surname) res.status(404).send("No item found");
+    res.status(200).send();
+  } catch (err) {
+    res.status(500).send(err);
+  }
+});
+
 module.exports = app;

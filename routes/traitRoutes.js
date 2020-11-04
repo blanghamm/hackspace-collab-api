@@ -31,4 +31,14 @@ app.put("/traits", async (req, res) => {
   }
 });
 
+app.delete("/traits/:id", async (req, res) => {
+  const trait = await traitModal.findByIdAndDelete(req.params.id);
+  try {
+    if (!trait) res.status(404).send("No item found");
+    res.status(200).send();
+  } catch (err) {
+    res.status(500).send(err);
+  }
+});
+
 module.exports = app;

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="579d42e8-1829-47af-a117-022c72053ec0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/models/age.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/firstnameRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/firstnameRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/flawRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/flawRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/surnameRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/surnameRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/traitRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/traitRoutes.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1jT1ANBcBONfw323HybMKFO3xAL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="579d42e8-1829-47af-a117-022c72053ec0" name="Default Changelist" comment="" />
+      <created>1603813123755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603813123755</updated>
+      <workItem from="1603813125556" duration="854000" />
+      <workItem from="1603890866595" duration="1722000" />
+      <workItem from="1603988384582" duration="167000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="164" key="SettingsEditor" timestamp="1603891190194">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1603891190194" />
+  </component>
+</project>
